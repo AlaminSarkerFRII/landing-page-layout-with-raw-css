@@ -1,0 +1,40 @@
+.row {
+    display: flex;
+}
+div h1 {
+width: 581.71px;
+height: 226.44px;
+left: 149.81px;
+top: 312px;
+font-family: 'Overlock';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+/* or 120% */
+color: #040415;
+
+}
+
+div p{
+width: 582.47px;
+height: 60.09px;
+left: 150px;
+top: 434.98px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+margin-bottom: 20px;
+}
+
+.col-2 img {
+position: absolute;
+width: 1166px;
+height: 568px;
+left: 137px;
+top: 563px;
+}
+
+/* elips picture add korte parini */
