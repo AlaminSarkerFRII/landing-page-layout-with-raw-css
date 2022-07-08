@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Products.css"
 import mock1 from "../../assets/img/Mockup 1.png"
+import mock2 from "../../assets/img/Mockup2.png"
 
 const Products = () => {
     return (
@@ -26,8 +27,8 @@ const Products = () => {
                         </div>
                     </div>
                     <div className="product col-1">
-                        <div className="product-image">
-                            <img src={mock1} alt="mobile" />
+                        <div className="product-image-2">
+                            <img src={mock2} alt="mobile" />
                         </div>
                         <div className="product-detail">
                             <h2>Cashback Product</h2>

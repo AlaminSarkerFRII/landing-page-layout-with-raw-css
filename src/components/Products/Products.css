@@ -1,7 +1,7 @@
 /* product-content */
 
 .product-content {
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 .product-title h2 {
@@ -58,14 +58,16 @@
 .product-detail {
     margin-left: 60px;
 }
+
 .product-detail h2 {
     margin-bottom: 40px;
 }
 
-.product-button{
+.product-button {
     margin-top: 10px;
     background-color: rgb(133, 156, 149);
-    color:black
+    background-color: #3088FF29;
+    color: black;
 }
 
 .product-image {
@@ -74,7 +76,12 @@
 }
 
 .product-image img {
-    padding:50px;
+    padding: 50px;
     margin: 0 auto;
 
+}
+
+.product-image-2 img {
+    padding: 50px;
+    margin: 0 auto;
 }

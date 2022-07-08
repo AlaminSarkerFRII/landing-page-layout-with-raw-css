@@ -1,0 +1,97 @@
+/* .packages-title{
+    text-align: center;
+} */
+.packages-title h2 {
+    position: relative;
+    font-size: 36px;
+    margin-bottom: 60px;
+    margin-left: 45px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.packages-title h2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -40px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-image: url("../../assets/img/Underline 3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.packages-title p {
+    font-size: 18px;
+    width: 40%;
+    margin: auto;
+}
+
+.package-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.package-btn button {
+    margin-right: 15px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.package-btn .yearly {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.package-btn .monthly {
+    background-color: #3088FF29;
+    color: black;
+}
+
+/* card */
+
+.package-description{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+    grid-gap: 30px;
+    margin-bottom: 120px;
+}
+
+.package-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    /* justify-content: space-between; */
+}
+
+
+.package-items div {
+    margin-bottom: 15px;
+}
+
+.card-1 {
+    background-color: #3088FF0D;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.card-2 {
+    background-color: #2D5BFF;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.price-button {
+    margin-top: 10px;
+    background: #F6A00E;
+    border-radius: 12px;
+    padding: 5px 25px;
+}
