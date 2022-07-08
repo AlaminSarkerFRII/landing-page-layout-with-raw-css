@@ -6,7 +6,6 @@
 }
 
 .customers-title h2::before {
-
     content: "";
     position: absolute;
     width: 100%;
@@ -17,7 +16,6 @@
     margin: auto;
     background-image: url("../../assets/img/Underline 3.png");
     background-repeat: no-repeat;
-
     background-position: center;
 }
 
