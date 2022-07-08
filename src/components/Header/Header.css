@@ -1,9 +1,5 @@
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header-content .container {
     text-transform: uppercase;
-    background-color: #3088FF38;
     margin-bottom: 20px;
 
 }
@@ -14,15 +10,14 @@ nav {
     align-items: center;
 }
 
+.header-items{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
 .header-items li {
     list-style: none;
-    display: inline-block;
-    padding: 0px 20px;
-    height: 22px;
-    top: 45px;
-    font-weight: 400;
-    font-size: 63px;
-
+    margin: 0 32px;
 }
 
 .header-items li a {

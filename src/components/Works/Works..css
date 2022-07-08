@@ -1,0 +1,30 @@
+.works-title h2{
+    font-size: 1.5rem;
+}
+
+.works-title h2{
+    text-align: start;
+    margin-top:126px;
+    margin-bottom: 120px;
+    background-image: url("../../assets/img/Underline\ 3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.works-description{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: stretch;
+    justify-content:center;
+}
+
+.works-content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /* justify-content: space-between; */
+}
+
+.works-items div {
+    margin-bottom: 15px;
+}

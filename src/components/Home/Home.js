@@ -1,8 +1,10 @@
 import React from 'react';
+import Customers from '../Customers/Customers';
 import Header from '../Header/Header';
+import Products from '../Products/Products';
+import Works from '../Works/Works';
 import Banner from './Banner';
-import Customers from './Customers';
-import Works from './Works';
+
 
 const Home = () => {
     return (
@@ -10,6 +12,7 @@ const Home = () => {
            <Banner/>
            <Customers/>
            <Works/>
+           <Products/>
         </div>
     );
 };

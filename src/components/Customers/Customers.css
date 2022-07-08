@@ -1,0 +1,38 @@
+.customers-title h2 {
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.customers-title h2::before {
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -34px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-image: url("../../assets/img/Underline 3.png");
+    background-repeat: no-repeat;
+
+    background-position: center;
+}
+
+
+
+
+
+.customers-logo img {
+    max-width: 100%;
+}
+
+.customers-logo {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 140px;
+}

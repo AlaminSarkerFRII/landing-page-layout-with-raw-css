@@ -1,0 +1,11 @@
+.product-title h2 {
+    position: relative;
+    font-size: 1.5rem;
+    text-align: center;
+    width: auto;
+}
+.product-title {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
