@@ -36,11 +36,13 @@
     flex-direction: row;
     align-items: center;
     justify-content:start;
+    margin-top: 20px;
 }
 
 .user-title{
     margin-top: 20px;
     display: flex;
+    align-items: start;
     justify-content: start;
     flex-direction: column;
     padding-left: 10px;
