@@ -11,15 +11,14 @@
 
 .footer-content {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     align-items: center;
     justify-content: space-between;
     margin: 100px auto;
     grid-gap: 20px;
 }
-.col-1 {
-    display: block;
-}
+
+
 .social-icons {
     font-size: 25px;
     display: flex;

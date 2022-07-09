@@ -14,7 +14,9 @@ const Banner = () => {
                     <p>We believe that great design should not be out of reach, so our services <br/> are less than half the price of a full-time designer.</p>
                 </div>
                 <div className="col-2">
-                    <img src={banner} alt=""></img>
+                    <div>
+                    <img src={banner} alt=""/>
+                    </div>
                 </div>
             </div>
 
