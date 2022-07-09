@@ -10,7 +10,7 @@ const Works = () => {
                 <h2>What you do ? </h2>
             </div>
             <div className="container works-description">
-                <div className="card-1">
+                <div className="">
                     <div id="works" className='works-content'>
                         <img src={img1} alt=""></img>
                         <h3>Branding</h3>
@@ -24,7 +24,7 @@ const Works = () => {
                     </div>
                 </div>
                 {/* card 2 */}
-                <div children="card-1">
+                <div children="">
                     <div id="works" className='works-content'>
                         <img src={ux} alt=""></img>
                         <h3>UI/UX Design</h3>
@@ -39,7 +39,7 @@ const Works = () => {
                     </div>
                 </div>
                 {/* card 3 */}
-                <div className="card-1">
+                <div className="">
                     <div id="works" className='works-content'>
                         <img src={ux} alt=""></img>
                         <h3>Development</h3>

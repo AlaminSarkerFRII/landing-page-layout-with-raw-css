@@ -58,8 +58,11 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content:center;
     text-align: center;
-    grid-gap: 20px;
+    grid-gap: 10px;
     margin-bottom: 50px;
+}
+.portfolio-gallery img {
+   width: 100%;
 }
 
 .portfolio-gallery h4 {
@@ -67,9 +70,7 @@
     text-align: center;
 }
 
-
 .all-photos-button {
  margin: 20px auto 100px;
     text-align: center;
-
 }

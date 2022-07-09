@@ -13,7 +13,7 @@ const DevTechnology = () => {
                 <h2>Our Dev Technology</h2>
                 <div className='technology-description'>
                     <div className='technology-header'>
-                        <div>Programming Languages</div>
+                        <div className="active">Programming Languages</div>
                         <div>Frameworks</div>
                         <div>Databases</div>
                         <div>Mobile Platforms</div>

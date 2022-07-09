@@ -32,15 +32,19 @@
 }
 
 /* workflow-accordion */
+.accordion{
+    border: transparent !important;
+}
 
+.accordion .accordion__button{
+background-color: transparent;
+}
 
 .accordion-item {
     border-left: 3px solid blue;
-    background: #FFFFFF;
     box-shadow: 12px 12px 55px rgba(4, 4, 21, 0.06);
     border-radius: 6px;
     margin-top: 5px;
-
 }
 
 .workflow-banner {

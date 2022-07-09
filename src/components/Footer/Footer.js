@@ -41,27 +41,37 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='col-2'>
-                        <h3 class="footer-title">Services</h3>
-                        <div class="link link-hover">Branding</div>
-                        <div class="link link-hover">Design</div>
-                        <div class="link link-hover">Marketing</div>
-                        <div class="link link-hover">Advertisement</div>
+                        <h3 class="footer-title">Company</h3>
+                        <div class="link link-hover">About us</div>
+                        <div class="link link-hover">Our portfolio</div>
+                        <div class="link link-hover">Our Product</div>
+                        <div class="link link-hover">Our Team</div>
+                        <div class="link link-hover">Our Priceing</div>
+                        <div class="link link-hover">Testimonials</div>
+                        <div class="link link-hover">Contact Us</div>
                     </div>
                     <div className='col-3'>
-                        <h3 class="footer-title">Services</h3>
-                        <div class="link link-hover">Branding</div>
-                        <div class="link link-hover">Design</div>
+                        <h3 class="footer-title">Our Service</h3>
                         <div class="link link-hover">Marketing</div>
-                        <div class="link link-hover">Advertisement</div>
+                        <div class="link link-hover">UI/UX Design</div>
+                        <div class="link link-hover">Graphic Design (Branding)</div>
+                        <div class="link link-hover">Development</div>
+                        <div class="link link-hover">New Products</div>
                     </div>
                     <div className='col-4'>
-                        <h3 class="footer-title">Services</h3>
-                        <div class="link link-hover">Branding</div>
-                        <div class="link link-hover">Design</div>
-                        <div class="link link-hover">Marketing</div>
-                        <div class="link link-hover">Advertisement</div>
+                        <h3 class="footer-title">Supports</h3>
+                        <div class="link link-hover">FAQs</div>
+                        <div class="link link-hover">Support Policy</div>
+                        <div class="link link-hover">Privacy Policy</div>
+                        <div class="link link-hover">Trams of Service</div>
+                        <div class="link link-hover">Refund Policy</div>
                     </div>
                 </div>
+                <hr />
+                <div class="footer-button">
+                    © 2022, Softcent EU, A European IT company
+                </div>
+
             </div>
         </>
     );
