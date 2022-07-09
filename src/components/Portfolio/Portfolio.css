@@ -1,0 +1,45 @@
+.portfolio-header{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio-title h2 {
+    position: relative;
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+    margin-left: 45px;
+    margin-top: 150px;
+}
+
+.portfolio-title h2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -34px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-image: url("../../assets/img/Underline 3.png");
+    background-repeat: no-repeat;
+    background-position: start;
+}
+
+.portfolio-btn button {
+        border-radius: 100%;
+        padding: 5px 10px;
+        margin-right: 10px;
+}
+
+.portfolio-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 50px;
+}
+
+.portfolio-gallery h4 {
+    margin-top: 15px;
+}

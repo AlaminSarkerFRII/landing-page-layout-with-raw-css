@@ -20,11 +20,16 @@ const Packages = () => {
                             <h4> $800/ mo </h4>
                         </div>
                         <div className='package-items'>
-                            <div>Brand Strategy </div>
-                            <div>Marketing Assets</div>
-                            <div>Presentations</div>
-                            <div>Build MVP Version</div>
-                            <div>Pitch Deck</div>
+                            <div> Dedicated Designer</div>
+                            <div>Unlimited requests</div>
+                            <div>Unlimited brand profiles</div>
+                            <div>Native source files</div>
+                            <div>Real-time collaboration</div>
+                            <div>Banner Ads</div>
+                            <div>Banner Ads</div>
+                            <div>Clothing & Merchandise Design</div>
+                            <div>Packaging & Label</div>
+                            <div>Logo & Brand Guide</div>
                         </div>
                         <button className="price-button"> $800/ mo </button>
                     </div>
@@ -35,12 +40,16 @@ const Packages = () => {
                             <h4>$1000/ mo</h4>
                         </div>
                         <div className='package-items'>
-                            <div>User Interface </div>
-                            <div>Marketing Assets</div>
-                            <div>Design System</div>
-                            <div>Wireframe</div>
-                            <div>Website & Mobile App</div>
-                            <div>IOS + Android</div>
+                            <div> Dedicated Designer</div>
+                            <div>Unlimited requests</div>
+                            <div>Unlimited brand profiles</div>
+                            <div>Native source files</div>
+                            <div>Real-time collaboration</div>
+                            <div>Banner Ads</div>
+                            <div>Banner Ads</div>
+                            <div>Clothing & Merchandise Design</div>
+                            <div>Packaging & Label</div>
+                            <div>Logo & Brand Guide</div>
                         </div>
                         <button className="price-button"> $800/ mo </button>
                     </div>
@@ -51,11 +60,16 @@ const Packages = () => {
                             <h4>$1000/ mo</h4>
                         </div>
                         <div className='package-items'>
-                            <div>Front End (HTML, CSS, React)</div>
-                            <div>Backend (Node.js, MongoDB)</div>
-                            <div>iOS (Swift)</div>
-                            <div>Android (Kotlin, Flutter)</div>
-                            <div>Blockchain Development (NFT)</div>
+                            <div>Dedicated Designer</div>
+                            <div>Unlimited requests</div>
+                            <div>Unlimited brand profiles</div>
+                            <div>Native source files</div>
+                            <div>Real-time collaboration</div>
+                            <div>Banner Ads</div>
+                            <div>Banner Ads</div>
+                            <div>Clothing & Merchandise Design</div>
+                            <div>Packaging & Label</div>
+                            <div>Logo & Brand Guide</div>
                         </div>
                         <button className="price-button"> $800/ mo </button>
                     </div>
