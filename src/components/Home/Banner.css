@@ -3,26 +3,21 @@
     margin: 80px auto;
 }
 
-.row  {
-    /* display: flex; */
-}
 div h1 {
 font-family: 'Overlock';
 font-style: normal;
 font-weight: 700;
 font-size: 64px;
-line-height: 77px;
 /* or 120% */
 color: #040415;
 
 }
 
-div p{
+.banner p{
 font-family: 'Nunito';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-line-height: 32px;
 margin-bottom: 20px;
 }
 

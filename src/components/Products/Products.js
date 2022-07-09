@@ -30,7 +30,7 @@ const Products = () => {
                         <div className="product-image-2">
                             <img src={mock2} alt="mobile" />
                         </div>
-                        <div className="product-detail">
+                        <div className="product-detail-2">
                             <h2>Cashback Product</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             <div><button className='product-button'>View product</button></div>

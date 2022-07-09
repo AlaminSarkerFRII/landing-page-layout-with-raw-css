@@ -56,7 +56,7 @@
 
 /* card */
 
-.package-description{
+.package-description {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: stretch;
@@ -64,17 +64,27 @@
     margin-bottom: 120px;
 }
 
-.package-content {
+.package-content{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.card-list {
+    display: flex;
+    justify-content: start;
+
+}
+
+.card-symbol {
+    margin-top: 5px;
+    margin-right: 10px;
 }
 
 
 .package-items div {
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 .card-1 {
@@ -90,7 +100,9 @@
 }
 
 .price-button {
-    margin-top: 10px;
+    width: 80%;
+    margin: 40px auto;
+    display: block;
     background: #F6A00E;
     border-radius: 12px;
     padding: 5px 25px;

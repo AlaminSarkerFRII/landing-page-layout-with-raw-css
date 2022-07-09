@@ -6,12 +6,12 @@ const Banner = () => {
     return (
         <div className="container banner">
             <div className="row">
-                <div className="col-1">
+                <div className="">
                     <h1>Software services for <br/>
                         startups without <br/>
                         limits.. 
                     </h1>
-                    <p>We believe that great design should not be out of reach, so our services are less than half the price of a full-time designer.</p>
+                    <p>We believe that great design should not be out of reach, so our services <br/> are less than half the price of a full-time designer.</p>
                 </div>
                 <div className="col-2">
                     <img src={banner} alt=""></img>

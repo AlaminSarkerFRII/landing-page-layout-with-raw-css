@@ -1,7 +1,22 @@
 import React from 'react';
 import "./Packages.css"
+import { BsCheck } from "react-icons/bs"
 
 const Packages = () => {
+
+    const manageList = [
+        "Dedicated Designer",
+        "Unlimited requests",
+        "Unlimited brand profiles",
+        "Native source files",
+        "Real - time collaboration",
+        "Banner Ads",
+        "Banner Ads",
+        "Clothing & Merchandise Design",
+        "Packaging & Label",
+        "Logo & Brand Guide",
+    ]
+
     return (
         <div>
             <div className="container packages-title">
@@ -20,16 +35,17 @@ const Packages = () => {
                             <h4> $800/ mo </h4>
                         </div>
                         <div className='package-items'>
-                            <div> Dedicated Designer</div>
-                            <div>Unlimited requests</div>
-                            <div>Unlimited brand profiles</div>
-                            <div>Native source files</div>
-                            <div>Real-time collaboration</div>
-                            <div>Banner Ads</div>
-                            <div>Banner Ads</div>
-                            <div>Clothing & Merchandise Design</div>
-                            <div>Packaging & Label</div>
-                            <div>Logo & Brand Guide</div>
+                            {
+                                manageList.map((manage, index) => (
+                                    <div key={index} className='card-list'>
+                                        <BsCheck className='card-symbol' />
+                                        <div className="ml-2">
+                                            {manage}
+                                        </div>
+
+                                    </div>
+                                ))
+                            }
                         </div>
                         <button className="price-button"> $800/ mo </button>
                     </div>
@@ -40,16 +56,17 @@ const Packages = () => {
                             <h4>$1000/ mo</h4>
                         </div>
                         <div className='package-items'>
-                            <div> Dedicated Designer</div>
-                            <div>Unlimited requests</div>
-                            <div>Unlimited brand profiles</div>
-                            <div>Native source files</div>
-                            <div>Real-time collaboration</div>
-                            <div>Banner Ads</div>
-                            <div>Banner Ads</div>
-                            <div>Clothing & Merchandise Design</div>
-                            <div>Packaging & Label</div>
-                            <div>Logo & Brand Guide</div>
+                            {
+                                manageList.map((manage, index) => (
+                                    <div key={index} className='card-list'>
+                                        <BsCheck className='card-symbol' />
+                                        <div className="ml-2">
+                                            {manage}
+                                        </div>
+
+                                    </div>
+                                ))
+                            }
                         </div>
                         <button className="price-button"> $800/ mo </button>
                     </div>
@@ -60,16 +77,17 @@ const Packages = () => {
                             <h4>$1000/ mo</h4>
                         </div>
                         <div className='package-items'>
-                            <div>Dedicated Designer</div>
-                            <div>Unlimited requests</div>
-                            <div>Unlimited brand profiles</div>
-                            <div>Native source files</div>
-                            <div>Real-time collaboration</div>
-                            <div>Banner Ads</div>
-                            <div>Banner Ads</div>
-                            <div>Clothing & Merchandise Design</div>
-                            <div>Packaging & Label</div>
-                            <div>Logo & Brand Guide</div>
+                            {
+                                manageList.map((manage, index) => (
+                                    <div key={index} className='card-list'>
+                                        <BsCheck className='card-symbol' />
+                                        <div className="">
+                                            {manage}
+                                        </div>
+
+                                    </div>
+                                ))
+                            }
                         </div>
                         <button className="price-button"> $800/ mo </button>
                     </div>

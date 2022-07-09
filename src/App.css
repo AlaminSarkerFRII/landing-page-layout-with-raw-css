@@ -2,6 +2,10 @@
     Common Layout CSS
 ===================== */
 
+*{
+  box-sizing: border-box;
+}
+
 li , a , button {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -9,10 +13,16 @@ li , a , button {
   font-size: 16px;
 }
 
+
+img{
+  max-width: 100%;
+}
+
 .container {
   max-width: 90%;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 

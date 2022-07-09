@@ -1,4 +1,4 @@
-.portfolio-header{
+.portfolio-header {
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -28,18 +28,48 @@
 }
 
 .portfolio-btn button {
-        border-radius: 100%;
-        padding: 5px 10px;
-        margin-right: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    display: block;
+    padding: 0;
+    width: 54px;
+    height: 54px;
+    box-shadow: 10px 10px 22px rgba(45, 91, 255, 0.28);
 }
 
-.portfolio-gallery{
+.btn-left{
+    background-color: azure;
+    color:black;
+}
+.portfolio-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.portfolio-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content:center;
+    text-align: center;
     grid-gap: 20px;
     margin-bottom: 50px;
 }
 
 .portfolio-gallery h4 {
     margin-top: 15px;
+    text-align: center;
+}
+
+
+.all-photos-button {
+ margin: 20px auto 100px;
+    text-align: center;
+
 }
