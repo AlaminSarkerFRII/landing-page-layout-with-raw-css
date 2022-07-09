@@ -3,7 +3,6 @@ import AboutUs from '../AboutUs/AboutUs';
 import Customers from '../Customers/Customers';
 import DesignTechnology from '../DesignTechnology/DesignTechnology';
 import DevTechnology from '../DevTechnology/DevTechnology';
-import Header from '../Header/Header';
 import Packages from '../Packages/Packages';
 import Portfolio from '../Portfolio/Portfolio';
 import Products from '../Products/Products';
