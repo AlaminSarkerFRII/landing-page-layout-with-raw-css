@@ -20,3 +20,36 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.workflow-description {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    border:none;
+}
+
+/* workflow-accordion */
+
+
+.accordion-item {
+    border-left: 3px solid blue;
+    background: #FFFFFF;
+    box-shadow: 12px 12px 55px rgba(4, 4, 21, 0.06);
+    border-radius: 6px;
+    margin-top: 5px;
+
+}
+
+.workflow-banner {
+    border:0;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.workflow-banner img {
+    border-radius: 6px;
+}

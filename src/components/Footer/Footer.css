@@ -1,0 +1,10 @@
+.message{
+    background-color: #2D5BFF;
+    color: aliceblue;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
