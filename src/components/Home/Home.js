@@ -10,7 +10,6 @@ import WorkFlow from '../WorkFlow/WorkFlow';
 import Works from '../Works/Works';
 import Banner from './Banner';
 
-
 const Home = () => {
     return (
         <div>
@@ -23,7 +22,7 @@ const Home = () => {
            <Portfolio/>
            <DevTechnology/>
            <DesignTechnology/>
-           <WorkFlow/>
+           <WorkFlow/> 
         </div>
     );
 };
